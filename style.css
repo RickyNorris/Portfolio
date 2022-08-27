@@ -1,7 +1,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     background-color: #424949;
-    font-size: 18px;
+    font-size: 16px;
     color: azure;
     width: 100%;
 }
@@ -16,11 +16,21 @@ header .logo {
     float: left;
     margin-left: 3rem;
     max-width: 8rem;
+    border-radius: 50%;
+    background: #424949;
+    box-shadow: 29px 29px 72px #313636, -29px -29px 72px #535c5c;
+}
+
+header .logo:active {
+    border-radius: 50%;
+    background: #424949;
+    box-shadow: inset 29px 29px 72px #313636, inset -29px -29px 72px #535c5c;
 }
 
 nav {
     float: right;
     margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 nav a {
@@ -31,7 +41,18 @@ nav a {
 nav li {
     display: inline-block;
     list-style: none;
-    padding: 1rem;
+    padding: 1.3rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    border-radius: 71px;
+    background: #424949;
+    box-shadow: 29px 29px 72px #313636, -29px -29px 72px #535c5c;
+}
+
+nav li:active {
+    border-radius: 71px;
+    background: #424949;
+    box-shadow: inset 29px 29px 72px #313636, inset -29px -29px 72px #535c5c;
 }
 
 .introduction {
@@ -53,8 +74,11 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    margin-bottom: 2rem;
+    width: 28%;
     border-radius: 4rem;
+    border-radius: 71px;
+    box-shadow: 29px 29px 72px #313636, -29px -29px 72px #535c5c;
 }
 
 .about-me p {
@@ -67,9 +91,22 @@ h1 {
 
 footer {
     position: absolute;
-    display: flex;
     width: 100%;
-    bottom: 0px;
     text-align: center;
-    justify-content: center;
+    display: table-row;
+    height: auto;
+}
+
+footer img {
+    position: absolute;
+    width: 1rem;
+    height: auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+footer a {
+    color: azure;
+    text-decoration: none;
+    padding-left: 1rem;
 }
