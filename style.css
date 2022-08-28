@@ -93,6 +93,14 @@ h1 {
     box-shadow: 29px 29px 72px #313636, -29px -29px 72px #535c5c;
 }
 
+.about-me #portrait {
+    border-radius: 1rem;
+    opacity: .9;
+    padding: .1rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
 .about-me {
     margin-left: auto;
     margin-right: auto;
