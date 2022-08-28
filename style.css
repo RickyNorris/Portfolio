@@ -36,12 +36,13 @@ nav {
 nav a {
     text-decoration: none;
     color: azure;
+    padding: 1.3rem;
 }
 
 nav li {
     display: inline-block;
     list-style: none;
-    padding: 1.3rem;
+    padding: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
     border-radius: 71px;
@@ -118,11 +119,53 @@ h1 {
     width: 45%;
 }
 
+.projects-page {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+}
+
+.page-title p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 45%;
+    margin-bottom: 6rem;
+}
+
+.project-link a {
+    text-decoration: none;
+    color: azure;
+    padding: 1.3rem 6rem 1.3rem 6rem;
+}
+
+.project-link {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 1.3rem;
+    border-radius: 71px;
+    background: #424949;
+    box-shadow: 29px 29px 72px #313636, -29px -29px 72px #535c5c;    
+}
+
+.project-link:active {
+    border-radius: 71px;
+    background: #424949;
+    box-shadow: inset 29px 29px 72px #313636, inset -29px -29px 72px #535c5c;
+}
+
 .contact-intro {
     padding: 1rem;
 }
 
 .contact-container {
+    margin-top: 2rem;
+}
+
+.project-container {
     margin-top: 2rem;
 }
 
